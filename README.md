@@ -10,7 +10,7 @@
 
 - `Arduino/`
   - `VVVF/`
-    - `[vvvf.ino](./Arduino/VVVF/VVVF.ino)`
+    - [vvvf.ino](./Arduino/VVVF/VVVF.ino)
 - `Bridge/`
 
 # LICENCE
