@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Heatsink")(type "KiCad")(uri "${KIPRJMOD}/Heatsink.pretty")(options "")(descr ""))
+  (lib (name "Screw-on-Board")(type "KiCad")(uri "${KIPRJMOD}/Screw-on-Board.pretty")(options "")(descr ""))
+)
