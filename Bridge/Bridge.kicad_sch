@@ -1286,6 +1286,11 @@
     (uuid f4aafe19-4acd-4f5e-85a2-f9419af56637)
   )
 
+  (no_connect (at 219.71 57.15) (uuid 0f62c309-bee3-4931-9bd5-158f4e0dbba7))
+  (no_connect (at 224.79 57.15) (uuid 3bfe1232-98aa-4c43-98f9-945b91c19d79))
+  (no_connect (at 180.34 57.15) (uuid 89cb1716-2b8f-4b99-9686-11c6e2857366))
+  (no_connect (at 185.42 57.15) (uuid b7ec40cb-26f3-485f-8683-d8fdd2ca9dda))
+
   (wire (pts (xy 39.37 55.88) (xy 36.83 55.88))
     (stroke (width 0) (type default))
     (uuid 006e0189-e1d9-4995-972e-904058775fd0)
@@ -1746,31 +1751,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 185.42 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 024d610f-fdef-45cb-bed7-7987f977bc85)
-    (property "Reference" "#PWR02" (at 185.42 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 185.42 62.23 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 185.42 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 185.42 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d7c87415-25db-46dd-8dfe-00ae14f731f2))
-    (instances
-      (project "Bridge"
-        (path "/7b1c29b2-aaa9-4950-8c77-d7ab4040900b"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:Barrel_Jack") (at 29.21 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 048b6315-51c0-4f89-a3cf-92516e0c6944)
@@ -2186,31 +2166,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 219.71 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 34ea9c95-6a67-485f-b311-0d1f1d28fe48)
-    (property "Reference" "#PWR03" (at 219.71 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 219.71 62.23 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 219.71 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 219.71 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c008f7f5-0266-4aaa-9850-926aa01e180d))
-    (instances
-      (project "Bridge"
-        (path "/7b1c29b2-aaa9-4950-8c77-d7ab4040900b"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 101.6 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3859dcaf-1a1c-43fb-a717-85d3547d1a12)
@@ -2360,31 +2315,6 @@
       (project "Bridge"
         (path "/7b1c29b2-aaa9-4950-8c77-d7ab4040900b"
           (reference "HS2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 180.34 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 56c28b0a-223f-4a41-9dcf-7375f612e972)
-    (property "Reference" "#PWR01" (at 180.34 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 180.34 62.23 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 180.34 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 180.34 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3e89d15d-948a-4d7a-97e6-ecea7bd8027f))
-    (instances
-      (project "Bridge"
-        (path "/7b1c29b2-aaa9-4950-8c77-d7ab4040900b"
-          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3126,31 +3056,6 @@
       (project "Bridge"
         (path "/7b1c29b2-aaa9-4950-8c77-d7ab4040900b"
           (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 224.79 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d6cf2d94-9d7e-44a0-86a9-b95a18e61c27)
-    (property "Reference" "#PWR04" (at 224.79 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 224.79 62.23 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 224.79 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 224.79 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8d0c87cb-7a77-404f-98c0-79dab4498ae0))
-    (instances
-      (project "Bridge"
-        (path "/7b1c29b2-aaa9-4950-8c77-d7ab4040900b"
-          (reference "#PWR04") (unit 1)
         )
       )
     )
