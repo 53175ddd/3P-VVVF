@@ -10,10 +10,9 @@
 
 # フォルダ構成
 
-- `Arduino/`
-  - `VVVF/`
-    - [vvvf.ino](./Arduino/VVVF/VVVF.ino)
-- `Bridge/`
+- `Arduino/` // Arduino プロジェクトの開発場所
+  - [`VVVF/VVVF.ino`](./Arduino/VVVF/VVVF.ino) // スタンダードな VVVF のプログラム
+- `Bridge/` // 基板の開発場所
 
 # LICENCE
 
